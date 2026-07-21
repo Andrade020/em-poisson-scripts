@@ -1,0 +1,173 @@
+{
+ "nyc": {
+  "N_semanas": 727.7,
+  "solvers": {
+   "PG-Armijo": {
+    "iters": 5392,
+    "tempo_mediano_s": 1.44,
+    "tempos": [
+     1.27,
+     1.44,
+     1.46
+    ],
+    "f_final": 2806441.91,
+    "it_ate_1e-8": 4271,
+    "t_ate_1e-8_s": 1.16,
+    "gap_vs_best": 0.004
+   },
+   "FISTA": {
+    "iters": 787,
+    "tempo_mediano_s": 0.4,
+    "tempos": [
+     0.4,
+     0.4,
+     0.37
+    ],
+    "f_final": 2806441.91,
+    "it_ate_1e-8": 697,
+    "t_ate_1e-8_s": 0.33,
+    "gap_vs_best": 0.004
+   },
+   "L-BFGS-B": {
+    "iters": 280,
+    "tempo_mediano_s": 1.02,
+    "tempos": [
+     1.05,
+     1.01,
+     1.02
+    ],
+    "f_final": 2806441.91,
+    "it_ate_1e-8": 280,
+    "t_ate_1e-8_s": 1.02,
+    "gap_vs_best": 0.004
+   },
+   "EM": {
+    "iters": 38,
+    "tempo_mediano_s": 5.16,
+    "tempos": [
+     5.16,
+     5.05,
+     5.97
+    ],
+    "f_final": 2806441.91,
+    "it_ate_1e-8": 7,
+    "t_ate_1e-8_s": 3.81,
+    "gap_vs_best": 0.004
+   }
+  }
+ },
+ "chicago": {
+  "N_semanas": 392.4,
+  "solvers": {
+   "PG-Armijo": {
+    "iters": 3900,
+    "tempo_mediano_s": 1.62,
+    "tempos": [
+     1.64,
+     1.62,
+     1.62
+    ],
+    "f_final": 2491272.49,
+    "it_ate_1e-8": 2987,
+    "t_ate_1e-8_s": 1.23,
+    "gap_vs_best": -0.0044
+   },
+   "FISTA": {
+    "iters": 501,
+    "tempo_mediano_s": 0.42,
+    "tempos": [
+     0.42,
+     0.42,
+     0.41
+    ],
+    "f_final": 2491272.49,
+    "it_ate_1e-8": 413,
+    "t_ate_1e-8_s": 0.34,
+    "gap_vs_best": -0.0044
+   },
+   "L-BFGS-B": {
+    "iters": 239,
+    "tempo_mediano_s": 0.82,
+    "tempos": [
+     0.82,
+     0.84,
+     0.82
+    ],
+    "f_final": 2491272.49,
+    "it_ate_1e-8": 239,
+    "t_ate_1e-8_s": 0.82,
+    "gap_vs_best": -0.0044
+   },
+   "EM": {
+    "iters": 17,
+    "tempo_mediano_s": 4.47,
+    "tempos": [
+     4.04,
+     4.47,
+     5.61
+    ],
+    "f_final": 2491272.49,
+    "it_ate_1e-8": 6,
+    "t_ate_1e-8_s": 3.63,
+    "gap_vs_best": -0.0044
+   }
+  }
+ },
+ "seattle": {
+  "N_semanas": 1184.1,
+  "solvers": {
+   "PG-Armijo": {
+    "iters": 8553,
+    "tempo_mediano_s": 3.79,
+    "tempos": [
+     3.74,
+     3.79,
+     3.84
+    ],
+    "f_final": 5112893.09,
+    "it_ate_1e-8": 6695,
+    "t_ate_1e-8_s": 3.02,
+    "gap_vs_best": 0.0023
+   },
+   "FISTA": {
+    "iters": 594,
+    "tempo_mediano_s": 0.54,
+    "tempos": [
+     0.57,
+     0.54,
+     0.51
+    ],
+    "f_final": 5112893.09,
+    "it_ate_1e-8": 476,
+    "t_ate_1e-8_s": 0.41,
+    "gap_vs_best": 0.0023
+   },
+   "L-BFGS-B": {
+    "iters": 370,
+    "tempo_mediano_s": 1.93,
+    "tempos": [
+     1.93,
+     2.05,
+     1.65
+    ],
+    "f_final": 5112893.09,
+    "it_ate_1e-8": 370,
+    "t_ate_1e-8_s": 1.65,
+    "gap_vs_best": 0.0023
+   },
+   "EM": {
+    "iters": 34,
+    "tempo_mediano_s": 7.85,
+    "tempos": [
+     6.87,
+     8.13,
+     7.85
+    ],
+    "f_final": 5112893.09,
+    "it_ate_1e-8": 5,
+    "t_ate_1e-8_s": 4.88,
+    "gap_vs_best": 0.0023
+   }
+  }
+ }
+}

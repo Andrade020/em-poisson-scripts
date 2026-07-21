@@ -1,0 +1,16 @@
+[
+ {
+  "dataset": "chicago_CA",
+  "faltantes_B": 5678,
+  "TV_modelo": 0.077,
+  "TV_uniforme": 0.2916,
+  "TV_ajustado_MNAR_oos": 0.1288
+ },
+ {
+  "dataset": "nyc_boroughs_2013-19",
+  "faltantes_B": 15051,
+  "TV_modelo": 0.1659,
+  "TV_uniforme": 0.1598,
+  "TV_ajustado_MNAR_oos": 0.162
+ }
+]

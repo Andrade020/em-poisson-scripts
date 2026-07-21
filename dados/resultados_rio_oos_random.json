@@ -1,0 +1,24 @@
+{
+ "desenho": "5 folds aleatorios de semanas, semente 1 (exposicao por semana inteira; evita a cauda degenerada do arquivo de replicacao)",
+ "MSE_corrigido": 1346.4,
+ "MSE_descartando": 1718.0,
+ "razao_desc_sobre_corr": 1.276,
+ "ganho_pct": 21.6,
+ "por_prioridade": {
+  "prio0": {
+   "MSE_corrigido": 559.46,
+   "MSE_descartando": 980.61,
+   "ganho_pct": 42.9
+  },
+  "prio1": {
+   "MSE_corrigido": 1516.22,
+   "MSE_descartando": 1526.01,
+   "ganho_pct": 0.6
+  },
+  "prio2": {
+   "MSE_corrigido": 1963.51,
+   "MSE_descartando": 2647.37,
+   "ganho_pct": 25.8
+  }
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "anos": [
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "n_eventos": 632503,
+ "semanas": 469.6,
+ "faltante_por_ano_%": {
+  "2017": 0.01,
+  "2018": 0.0,
+  "2019": 0.0,
+  "2020": 0.0,
+  "2021": 0.0,
+  "2022": 0.0,
+  "2023": 0.0,
+  "2024": 0.0,
+  "2025": 0.0
+ },
+ "faltante_global_%": 0.002,
+ "semisintetico": {
+  "Brasil_UF": {
+   "zonas": 27,
+   "eventos": 632489,
+   "erro_rel_corrigido": 0.0316,
+   "erro_rel_descartando": 0.2301,
+   "reducao_erro_pct": 86.3,
+   "cobertura_IC90_p": 0.901
+  },
+  "RJ_grade6x6": {
+   "zonas": 36,
+   "eventos": 45571,
+   "erro_rel_corrigido": 0.101,
+   "erro_rel_descartando": 0.2319,
+   "reducao_erro_pct": 56.5,
+   "cobertura_IC90_p": 0.898
+  }
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "dataset": "nyc",
+ "n_rows": 2269187,
+ "periodo": [
+  "2012-07-01",
+  "2026-06-11"
+ ],
+ "semanas": 729,
+ "p_global": 0.10953085840876049,
+ "p_por_hora_min": 0.09684701084977791,
+ "p_por_hora_max": 0.13370544209057467,
+ "teste_p_depende_hora": {
+  "deviance": 617.6,
+  "gl": 167,
+  "p_valor": 6.215134558042345e-53
+ },
+ "p_por_tipo": {
+  "damage-only": 0.1133,
+  "fatal": 0.1274,
+  "injury": 0.098
+ },
+ "teste_p_depende_tipo": {
+  "deviance": 1045.5,
+  "gl": 2,
+  "p_valor": 9.31104299970798e-228
+ },
+ "frac_com_rotulo_zona": 0.695320394484897,
+ "teste_MNAR_p_depende_zona": {
+  "n_zonas": 5,
+  "p_min": 0.0244,
+  "p_max": 0.0343,
+  "deviance": 1034.3,
+  "gl": 4,
+  "p_valor": 1.33258195261782e-222
+ },
+ "subestimacao_total_%": 10.95,
+ "subestimacao_pico_%_hora": 13.37,
+ "OOS_MSE_intensidade_total_por_hora": {
+  "nao_corrigido": 64.367,
+  "corr_p_unico": 74.201,
+  "corr_p_t": 74.281
+ },
+ "modelo2_penalizado": {
+  "0.0": {
+   "PG": {
+    "iters": 1500,
+    "tempo_s": 14.7,
+    "f": 2233151.25
+   },
+   "EM": {
+    "iters": 14,
+    "tempo_s": 18.0,
+    "f": 2216361.66
+   },
+   "gap_EM_menos_PG": -16789.5862,
+   "OOS_MSE_M1_por_zona_hora": 721.5767,
+   "OOS_MSE_M1_baseline_empirico": 721.5924
+  },
+  "0.0001": {
+   "PG": {
+    "iters": 1500,
+    "tempo_s": 15.9,
+    "f": 2282822.08
+   },
+   "EM": {
+    "iters": 15,
+    "tempo_s": 20.3,
+    "f": 2282820.62
+   },
+   "gap_EM_menos_PG": -1.4645,
+   "OOS_MSE_M1_por_zona_hora": 479.0748,
+   "OOS_MSE_M1_baseline_empirico": 721.5924
+  }
+ }
+}

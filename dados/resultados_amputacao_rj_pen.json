@@ -1,0 +1,41 @@
+{
+ "dataset": "DATATRAN RJ 6x6",
+ "replicas": 20,
+ "semanas": 469.6,
+ "eventos": 45564,
+ "p_medio": 0.25,
+ "erro_por_omega": {
+  "0": {
+   "media": 0.1001,
+   "dp": 0.0015
+  },
+  "300": {
+   "media": 0.1677,
+   "dp": 0.0012
+  },
+  "1000": {
+   "media": 0.2644,
+   "dp": 0.001
+  },
+  "3000": {
+   "media": 0.379,
+   "dp": 0.0006
+  },
+  "10000": {
+   "media": 0.5192,
+   "dp": 0.0005
+  },
+  "30000": {
+   "media": 0.69,
+   "dp": 0.0008
+  }
+ },
+ "erro_omega_cv": {
+  "media": 0.1001,
+  "dp": 0.0015
+ },
+ "erro_fechado_sem_pen": {
+  "media": 0.1001,
+  "dp": 0.0015
+ }
+}

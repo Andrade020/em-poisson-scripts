@@ -1,0 +1,26 @@
+[
+ {
+  "dataset": "chicago_CA77",
+  "n_reportados": 1776621,
+  "n_faltantes": 24852,
+  "frac_faltantes_com_rotulo": 0.9999,
+  "TV_modelo_lambda_t": 0.1183,
+  "TV_alocacao_estatica": 0.1182,
+  "TV_uniforme": 0.3158,
+  "zonas_no_teste_MNAR": 46,
+  "corr_desvio_vs_teoria_MNAR": 0.997,
+  "TV_modelo_ajustado_MNAR": 0.0103
+ },
+ {
+  "dataset": "nyc_boroughs_2013-19",
+  "n_reportados": 1027992,
+  "n_faltantes": 184675,
+  "frac_faltantes_com_rotulo": 0.1628,
+  "TV_modelo_lambda_t": 0.0829,
+  "TV_alocacao_estatica": 0.0827,
+  "TV_uniforme": 0.185,
+  "zonas_no_teste_MNAR": 5,
+  "corr_desvio_vs_teoria_MNAR": 1.0,
+  "TV_modelo_ajustado_MNAR": 0.0006
+ }
+]

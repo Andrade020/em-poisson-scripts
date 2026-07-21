@@ -1,0 +1,75 @@
+{
+ "dataset": "chicago",
+ "n_rows": 1801623,
+ "periodo": [
+  "2019-01-01",
+  "2026-07-09"
+ ],
+ "semanas": 393,
+ "p_global": 0.013794228870301944,
+ "p_por_hora_min": 0.0014175779667881733,
+ "p_por_hora_max": 0.06501804413417736,
+ "teste_p_depende_hora": {
+  "deviance": 14096.8,
+  "gl": 167,
+  "p_valor": 0.0
+ },
+ "p_por_tipo": {
+  "BATTERY": 0.0036,
+  "OTHER": 0.0166,
+  "THEFT": 0.0145
+ },
+ "teste_p_depende_tipo": {
+  "deviance": 4121.4,
+  "gl": 2,
+  "p_valor": 0.0
+ },
+ "frac_com_rotulo_zona": 0.9999150765726237,
+ "teste_MNAR_p_depende_zona": {
+  "n_zonas": 77,
+  "p_min": 0.0086,
+  "p_max": 0.0482,
+  "deviance": 2276.4,
+  "gl": 76,
+  "p_valor": 0.0
+ },
+ "subestimacao_total_%": 1.38,
+ "subestimacao_pico_%_hora": 6.5,
+ "OOS_MSE_intensidade_total_por_hora": {
+  "nao_corrigido": 49.377,
+  "corr_p_unico": 52.791,
+  "corr_p_t": 53.059
+ },
+ "modelo2_penalizado": {
+  "0.0": {
+   "PG": {
+    "iters": 1500,
+    "tempo_s": 18.1,
+    "f": 1986064.02
+   },
+   "EM": {
+    "iters": 13,
+    "tempo_s": 14.7,
+    "f": 1986051.63
+   },
+   "gap_EM_menos_PG": -12.3814,
+   "OOS_MSE_M1_por_zona_hora": 42.4848,
+   "OOS_MSE_M1_baseline_empirico": 42.4848
+  },
+  "0.0001": {
+   "PG": {
+    "iters": 1500,
+    "tempo_s": 13.2,
+    "f": 2013582.31
+   },
+   "EM": {
+    "iters": 13,
+    "tempo_s": 15.5,
+    "f": 2013582.29
+   },
+   "gap_EM_menos_PG": -0.0169,
+   "OOS_MSE_M1_por_zona_hora": 45.4852,
+   "OOS_MSE_M1_baseline_empirico": 42.4848
+  }
+ }
+}

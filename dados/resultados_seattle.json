@@ -1,0 +1,68 @@
+{
+ "dataset": "seattle",
+ "n_rows": 2187269,
+ "periodo": [
+  "2003-11-07",
+  "2026-07-17"
+ ],
+ "semanas": 1185,
+ "p_global": 0.001190068528379454,
+ "p_por_hora_min": 0.0,
+ "p_por_hora_max": 0.05368077289427133,
+ "teste_p_depende_hora": {
+  "deviance": 7108.7,
+  "gl": 167,
+  "p_valor": 0.0
+ },
+ "p_por_tipo": {
+  "EMS": 0.001,
+  "Fire": 0.0011,
+  "Other": 0.0021
+ },
+ "teste_p_depende_tipo": {
+  "deviance": 333.1,
+  "gl": 2,
+  "p_valor": 4.583402777809413e-73
+ },
+ "frac_com_rotulo_zona": 0.0,
+ "teste_MNAR_p_depende_zona": "sem rotulo de zona neste dataset",
+ "subestimacao_total_%": 0.12,
+ "subestimacao_pico_%_hora": 5.37,
+ "OOS_MSE_intensidade_total_por_hora": {
+  "nao_corrigido": 9.854,
+  "corr_p_unico": 9.904,
+  "corr_p_t": 9.902
+ },
+ "modelo2_penalizado": {
+  "0.0": {
+   "PG": {
+    "iters": 1500,
+    "tempo_s": 20.4,
+    "f": 3941821.5
+   },
+   "EM": {
+    "iters": 11,
+    "tempo_s": 12.6,
+    "f": 3941707.76
+   },
+   "gap_EM_menos_PG": -113.7409,
+   "OOS_MSE_M1_por_zona_hora": 470.1451,
+   "OOS_MSE_M1_baseline_empirico": 470.1322
+  },
+  "0.0001": {
+   "PG": {
+    "iters": 1500,
+    "tempo_s": 27.4,
+    "f": 4030325.27
+   },
+   "EM": {
+    "iters": 11,
+    "tempo_s": 19.1,
+    "f": 4030323.34
+   },
+   "gap_EM_menos_PG": -1.9339,
+   "OOS_MSE_M1_por_zona_hora": 1095.1368,
+   "OOS_MSE_M1_baseline_empirico": 470.1322
+  }
+ }
+}

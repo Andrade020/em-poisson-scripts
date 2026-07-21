@@ -1,0 +1,14 @@
+[
+ {
+  "dataset": "chicago_CA",
+  "TV_modelo": 0.1181,
+  "TV_ajustado_random_split": 0.0411,
+  "TV_uniforme": 0.3136
+ },
+ {
+  "dataset": "nyc_boroughs",
+  "TV_modelo": 0.0815,
+  "TV_ajustado_random_split": 0.0127,
+  "TV_uniforme": 0.189
+ }
+]

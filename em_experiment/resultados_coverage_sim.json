@@ -1,0 +1,13 @@
+{
+ "config": {
+  "I": 25,
+  "T": 24,
+  "N": 104,
+  "R": 1000,
+  "nivel": 0.9
+ },
+ "cobertura_lambda": 0.8978,
+ "se_mc_lambda": 0.0004,
+ "cobertura_p": 0.8985,
+ "se_mc_p": 0.0019
+}

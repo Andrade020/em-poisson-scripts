@@ -1,0 +1,76 @@
+[
+ {
+  "dataset": "chicago",
+  "I": 36,
+  "T": 168,
+  "semanas": 391.3,
+  "eventos": 1736973,
+  "p_medio": 0.25,
+  "A_hipoteses_valem": {
+   "erro_rel_corrigido": 0.0202,
+   "dp_corrigido": 0.0003,
+   "erro_rel_descartando": 0.2337,
+   "dp_descartando": 0.0003,
+   "reducao_erro_pct": 91.3,
+   "cobertura_IC90_p": 0.902,
+   "se_mc_cobertura": 0.0017
+  },
+  "B_violacao_MNAR": {
+   "delta=0.2": {
+    "vies_zona_min": -1.0,
+    "vies_zona_max": 0.053,
+    "correlacao_obs_vs_teoria": 1.0,
+    "erro_max_da_previsao": 0.0048
+   },
+   "delta=0.5": {
+    "vies_zona_min": -1.0,
+    "vies_zona_max": 0.149,
+    "correlacao_obs_vs_teoria": 1.0,
+    "erro_max_da_previsao": 0.0065
+   },
+   "delta=0.9": {
+    "vies_zona_min": -1.0,
+    "vies_zona_max": 0.294,
+    "correlacao_obs_vs_teoria": 1.0,
+    "erro_max_da_previsao": 0.0113
+   }
+  }
+ },
+ {
+  "dataset": "seattle",
+  "I": 36,
+  "T": 168,
+  "semanas": 443.3,
+  "eventos": 934795,
+  "p_medio": 0.25,
+  "A_hipoteses_valem": {
+   "erro_rel_corrigido": 0.0298,
+   "dp_corrigido": 0.0004,
+   "erro_rel_descartando": 0.2316,
+   "dp_descartando": 0.0004,
+   "reducao_erro_pct": 87.1,
+   "cobertura_IC90_p": 0.9,
+   "se_mc_cobertura": 0.0016
+  },
+  "B_violacao_MNAR": {
+   "delta=0.2": {
+    "vies_zona_min": -0.06,
+    "vies_zona_max": 0.053,
+    "correlacao_obs_vs_teoria": 1.0,
+    "erro_max_da_previsao": 0.0023
+   },
+   "delta=0.5": {
+    "vies_zona_min": -0.166,
+    "vies_zona_max": 0.123,
+    "correlacao_obs_vs_teoria": 1.0,
+    "erro_max_da_previsao": 0.0048
+   },
+   "delta=0.9": {
+    "vies_zona_min": -0.294,
+    "vies_zona_max": 0.204,
+    "correlacao_obs_vs_teoria": 1.0,
+    "erro_max_da_previsao": 0.007
+   }
+  }
+ }
+]

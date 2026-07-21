@@ -1,0 +1,10 @@
+*.csv
+*.zip
+LASPATED_Replication/
+dt_probe/
+drive_ids.txt
+prf*.html
+__pycache__/
+*.log
+*.aux
+main.pdf
