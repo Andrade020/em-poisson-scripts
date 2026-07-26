@@ -1,14 +1,22 @@
 [
  {
   "dataset": "chicago_CA",
-  "TV_modelo": 0.1181,
-  "TV_ajustado_random_split": 0.0411,
-  "TV_uniforme": 0.3136
+  "n_splits": 50,
+  "TV_modelo": 0.1204,
+  "TV_modelo_sd": 0.0032,
+  "TV_ajustado_random_split": 0.0419,
+  "TV_ajustado_random_split_sd": 0.0034,
+  "TV_uniforme": 0.3155,
+  "TV_uniforme_sd": 0.0026
  },
  {
   "dataset": "nyc_boroughs",
-  "TV_modelo": 0.0815,
-  "TV_ajustado_random_split": 0.0127,
-  "TV_uniforme": 0.189
+  "n_splits": 50,
+  "TV_modelo": 0.0835,
+  "TV_modelo_sd": 0.0024,
+  "TV_ajustado_random_split": 0.0091,
+  "TV_ajustado_random_split_sd": 0.0036,
+  "TV_uniforme": 0.185,
+  "TV_uniforme_sd": 0.0021
  }
 ]
